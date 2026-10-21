@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photos · Ayaan</title>
+  <meta name="description" content="Photos Ayaan has taken.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+</head>
+<body>
+  <main class="page">
+
+    <header class="topbar">
+      <a class="home" href="./">~/ayaan</a>
+      <nav aria-label="Site">
+        <a href="thoughts.html">thoughts</a>
+        <a href="photos.html" aria-current="page">photos</a>
+        <a href="uses.html">uses</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+      </nav>
+    </header>
+
+    <header class="page-head">
+      <h1>Photos</h1>
+      <p class="intro">Things I pointed a camera at that came out looking good.</p>
+    </header>
+
+    <!--
+      To add a photo:
+        1. Put the image in the /photos folder (resize to ~2000px wide first,
+           so the page stays fast).
+        2. Copy a <figure> block below. Newest at the top.
+        3. The caption is optional; delete the <figcaption> line if you don't want one.
+
+      <figure>
+        <img src="photos/marina-sunset.jpg" alt="Sunset over Marina Beach" loading="lazy">
+        <figcaption>Marina Beach, Chennai · 2026</figcaption>
+      </figure>
+    -->
+    <div class="gallery">
+    </div>
+
+    <p class="empty">Nothing up yet. Soon.</p>
+
+    <footer class="site-footer">
+      <p class="solidarity">
+        <svg class="flag" viewBox="0 0 12 6" role="img" aria-label="Flag of Palestine">
+          <rect width="12" height="2" fill="#000"/>
+          <rect y="2" width="12" height="2" fill="#fff"/>
+          <rect y="4" width="12" height="2" fill="#149954"/>
+          <path d="M0 0 L4 3 L0 6 Z" fill="#e4312b"/>
+        </svg>
+        <span>Free Palestine. End the genocide.</span>
+      </p>
+      <p class="colophon">© <span class="year">2026</span> Ayaan Nawaz · Hand-written HTML &amp; CSS · last tended <time id="updated" datetime="2026-10-21">21 Oct 2026</time></p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ayaan</title>
+  <meta name="description" content="Ayaan's small corner of the internet: a bit about me and the books, shows, films and music I love.">
+  <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161513" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+</head>
+<body>
+  <main class="page">
+
+    <header class="topbar">
+      <a class="home" href="./">~/ayaan</a>
+      <nav aria-label="Site">
+        <a href="thoughts.html">thoughts</a>
+        <a href="photos.html">photos</a>
+        <a href="uses.html">uses</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+      </nav>
+    </header>
+
+    <!-- Hello -->
+    <header class="hello">
+      <h1>Hi, I'm Ayaan.</h1>
+      <p class="lede">
+        I'm a 20-year-old undergrad at <span class="mark">IIT Madras</span>.
+        I split my time between Chennai and Bengaluru.
+      </p>
+    </header>
+
+    <!-- Currently -->
+    <section class="currently" aria-labelledby="currently-title">
+      <h2 id="currently-title" class="label">Currently</h2>
+      <p>Mostly just getting through the semester. I write code when I should probably be studying, and my watchlist grows faster than I can keep up with it.</p>
+    </section>
+
+    <hr class="divider" aria-hidden="true">
+
+    <!-- Shelf -->
+    <section class="shelf" aria-labelledby="shelf-title">
+      <h2 id="shelf-title">The Shelf</h2>
+      <p class="intro">
+        I read and watch a lot of things, so this is just a curated snapshot of
+        my absolute favorites and recent obsessions.
+      </p>
+
+      <div class="shelf-group">
+        <h3 class="label">Books</h3>
+        <ul class="picks">
+          <li><span class="title">1984 <span class="tag fav">favourite</span></span> <span class="by">George Orwell</span></li>
+          <li><span class="title">Animal Farm</span> <span class="by">George Orwell</span></li>
+          <li><span class="title">The Selfish Gene <span class="tag fav">favourite</span></span> <span class="by">Richard Dawkins</span></li>
+          <li><span class="title">Project Hail Mary <span class="tag fav">favourite</span></span> <span class="by">Andy Weir</span></li>
+          <li><span class="title">The Da Vinci Code <span class="tag recent">recent</span></span> <span class="by">Dan Brown</span></li>
+          <li><span class="title">Bad Science <span class="tag recent">recent</span></span> <span class="by">Ben Goldacre</span></li>
+        </ul>
+      </div>
+
+      <div class="shelf-group">
+        <h3 class="label">Manga</h3>
+        <ul class="picks">
+          <li><span class="title">Berserk <span class="tag fav">favourite</span><span class="tag recent">recent</span></span> <span class="by">Kentaro Miura</span></li>
+          <li><span class="title">20th Century Boys <span class="tag fav">favourite</span></span> <span class="by">Naoki Urasawa</span></li>
+          <li><span class="title">Vagabond <span class="tag fav">favourite</span><span class="tag recent">recent</span></span> <span class="by">Takehiko Inoue</span></li>
+        </ul>
+      </div>
+
+      <div class="shelf-group">
+        <h3 class="label">Shows</h3>
+        <ul class="picks">
+          <li><span class="title">Breaking Bad <span class="tag fav">favourite</span></span></li>
+          <li><span class="title">Severance <span class="tag fav">favourite</span><span class="tag recent">recent</span></span></li>
+          <li><span class="title">Game of Thrones <span class="tag fav">favourite</span></span></li>
+          <li><span class="title">Neon Genesis Evangelion <span class="tag fav">favourite</span></span></li>
+          <li><span class="title">Attack on Titan <span class="tag fav">favourite</span></span></li>
+          <li><span class="title">Code Geass: Lelouch of the Rebellion <span class="tag fav">favourite</span></span></li>
+          <li><span class="title">Monster <span class="tag fav">favourite</span></span></li>
+        </ul>
+      </div>
+
+      <div class="shelf-group">
+        <h3 class="label">Movies</h3>
+        <ul class="picks">
+          <li><span class="title">2001: A Space Odyssey <span class="tag fav">favourite</span></span> <span class="by">1968</span></li>
+          <li><span class="title">The Shawshank Redemption <span class="tag fav">favourite</span></span> <span class="by">1994</span></li>
+          <li><span class="title">12 Angry Men <span class="tag fav">favourite</span></span> <span class="by">1957</span></li>
+          <li><span class="title">The Dark Knight <span class="tag fav">favourite</span></span> <span class="by">2008</span></li>
+          <li><span class="title">Paper Trail <span class="tag fav">favourite</span><span class="tag recent">recent</span></span></li>
+          <li><span class="title">Star Wars <span class="tag fav">favourite</span></span> <span class="by">the whole saga</span></li>
+        </ul>
+      </div>
+
+      <div class="shelf-group">
+        <h3 class="label">Music</h3>
+        <p>The two albums I'll never get tired of:</p>
+
+        <div class="albums">
+          <a class="album" href="https://music.apple.com/in/album/the-dark-side-of-the-moon/1065973699" target="_blank" rel="noopener">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/76/b0/3e76b0e3-762b-2286-a019-8afb19cee541/886445635829.jpg/600x600bb.jpg"
+                 alt="The Dark Side of the Moon album cover" width="600" height="600" loading="lazy">
+            <span class="album-title">The Dark Side of the Moon</span>
+            <span class="album-meta">Pink Floyd · “Time”, “Brain Damage”</span>
+          </a>
+          <a class="album" href="https://music.apple.com/in/album/random-access-memories/617154241" target="_blank" rel="noopener">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/600x600bb.jpg"
+                 alt="Random Access Memories album cover" width="600" height="600" loading="lazy">
+            <span class="album-title">Random Access Memories</span>
+            <span class="album-meta">Daft Punk · “Contact”, “Instant Crush”</span>
+          </a>
+        </div>
+
+        <p>Beyond that, my rotation is pretty wide. Lately:</p>
+
+        <div class="rotation">
+          <a class="album small" href="https://music.apple.com/in/album/folklore/1524793738" target="_blank" rel="noopener">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/04/ba/7c04ba17-2ff8-21b3-0ac0-7d141f86e924/20UMGIM64216.rgb.jpg/300x300bb.jpg"
+                 alt="folklore album cover" width="300" height="300" loading="lazy">
+            <span class="album-title">folklore</span>
+            <span class="album-meta">Taylor Swift</span>
+          </a>
+          <a class="album small" href="https://music.apple.com/in/album/gnx/1781316864" target="_blank" rel="noopener">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/28/14/54281424-eece-0935-299d-fdd2ab403f92/24UM1IM28978.rgb.jpg/300x300bb.jpg"
+                 alt="GNX album cover" width="300" height="300" loading="lazy">
+            <span class="album-title">GNX</span>
+            <span class="album-meta">Kendrick Lamar</span>
+          </a>
+          <a class="album small" href="https://music.apple.com/in/album/lateralus/1474185412" target="_blank" rel="noopener">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/fb/99/8c/fb998c1e-1a11-2434-0fa7-0d90beba5d2b/886447824764.jpg/300x300bb.jpg"
+                 alt="Lateralus album cover" width="300" height="300" loading="lazy">
+            <span class="album-title">Lateralus</span>
+            <span class="album-meta">Tool</span>
+          </a>
+          <p class="rotation-more">…and classic rock like the Eagles.</p>
+        </div>
+
+        <h4 class="sublabel">Playlists I've made</h4>
+        <ul class="playlists">
+          <li>
+            <a class="playlist" href="https://music.apple.com/in/playlist/the-quintessential-soundtrack-to-sorrow/pl.u-KVXBk1GI1BoB6qX" target="_blank" rel="noopener">
+              <span class="playlist-art art-sorrow" aria-hidden="true">♪</span>
+              <span class="playlist-name">the quintessential soundtrack to sorrow</span>
+              <span class="playlist-count">12 songs</span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li>
+            <a class="playlist" href="https://music.apple.com/in/playlist/guitar-grandiose/pl.u-oZylDglIqjvjk6d" target="_blank" rel="noopener">
+              <span class="playlist-art art-guitar" aria-hidden="true">♪</span>
+              <span class="playlist-name">guitar grandiose</span>
+              <span class="playlist-count">9 songs</span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li>
+            <a class="playlist" href="https://music.apple.com/in/playlist/gold/pl.u-KVXBkXVC1BoB6qX" target="_blank" rel="noopener">
+              <span class="playlist-art art-gold" aria-hidden="true">♪</span>
+              <span class="playlist-name">gold 💛</span>
+              <span class="playlist-count">9 songs</span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="divider" aria-hidden="true">
+
+    <!-- Elsewhere -->
+    <footer class="elsewhere" aria-labelledby="elsewhere-title">
+      <h2 id="elsewhere-title" class="label">Elsewhere</h2>
+      <ul class="links">
+        <li><a href="https://github.com/ayaanokoji792" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://music.apple.com/profile/ayaanokoji" target="_blank" rel="noopener">Apple Music</a></li>
+        <li><a href="https://letterboxd.com/ayaanonmp4/" target="_blank" rel="noopener">Letterboxd</a></li>
+        <li><a href="https://substack.com/@ayaannawaz" target="_blank" rel="noopener">Substack</a></li>
+        <li><a href="https://www.linkedin.com/in/ayaan-nawaz/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:ayaannawaz2006@gmail.com">Email</a></li>
+      </ul>
+      <p class="solidarity">
+        <svg class="flag" viewBox="0 0 12 6" role="img" aria-label="Flag of Palestine">
+          <rect width="12" height="2" fill="#000"/>
+          <rect y="2" width="12" height="2" fill="#fff"/>
+          <rect y="4" width="12" height="2" fill="#149954"/>
+          <path d="M0 0 L4 3 L0 6 Z" fill="#e4312b"/>
+        </svg>
+        <span>Free Palestine. End the genocide.</span>
+      </p>
+      <p class="colophon">© <span class="year">2026</span> Ayaan Nawaz · Hand-written HTML &amp; CSS · last tended <time id="updated" datetime="2026-10-21">21 Oct 2026</time></p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
